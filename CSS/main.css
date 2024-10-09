@@ -1,12 +1,12 @@
-.root{
+:root{
     --blue: #4242dd;
-    --white:#eeeeee;
-    --black:#222222;
+    --white: #eeeeee;
+    --black: #222222;
     --gray: #444444;
-    --shawdow: #00000093;
-    --font-title: serif;
-    ---font-primary: 'roboto';
-    --font-size-default: 16;
+    --shawdow: rgba(0, 0, 0, 0.25);
+    --font-title: 'serif';
+    --font-primary: 'roboto';
+    --font-size-default: 16px;
 }
 
 * {
@@ -14,11 +14,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    font-family: var(---font-primary);
+    font-family: var(--font-primary);
     font-size: var(--font-size-default);
 }
-a{
+
+a {
     color: var(--gray);
     text-decoration: underline;
 }

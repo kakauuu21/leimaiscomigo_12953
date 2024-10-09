@@ -1,51 +1,65 @@
-header{
+header {
     background-image: url(../image/background-top.jpg);
     background-size: cover;
-    background-position: center ;
+    background-position: center;
 }
 
-.header-content{
+.header-content {
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--shawdow);
-    height:100vh;
+    /* height: 100vh; */
+    min-height: 400px;
 }
-.header-text,
-.hearder-logo{
-    width:50% ;
-    color: var(--white);
+
+.header-text, 
+.header-logo {
+    width: 50%;   
     padding: 40px;
 }
-.hearder-logo{
+
+.header-text{
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.header-logo {
+    /* text-align: center; */
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-.hearder-logo img{
+
+.header-logo img {
     padding: 20px;
     background-color: var(--white);
     border-radius: 50%;
 }
-/*Navber*/
-nav ul{
+
+/* Navbar */
+nav ul {
     display: flex;
     justify-content: center;
 }
-nav li{
+
+nav li {
     list-style: none;
 }
-.nav-top{
+
+.nav-top {
     line-height: 40px;
     background-color: var(--black);
 }
-.nav-top li a{
+
+.nav-top li a {
     text-decoration: none;
     color: var(--white);
     padding: 10px 20px;
 }
-.nav-top li a:hover{
+
+.nav-top li a:hover {
     color: var(--gray);
     background-color: var(--white);
     border-bottom: solid 4px var(--gray);
