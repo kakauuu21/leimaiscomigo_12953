@@ -24,3 +24,9 @@ a {
     color: var(--gray);
     text-decoration: underline;
 }
+.container{
+    width: 100%;
+    min-width: 340px;
+    max-width: 1200px;
+    margin: auto;
+}
