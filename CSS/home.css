@@ -1,3 +1,4 @@
+@import"./form.css";
 header {
     background-image: url(../image/background-top.jpg);
     background-size: cover;
@@ -126,10 +127,4 @@ nav li {
 .contact-map p{
     font-size: 18px;
     margin-bottom: 10px;
-}
-
-/* Form */
-
-.form-group{
-    display: flex;
 }
