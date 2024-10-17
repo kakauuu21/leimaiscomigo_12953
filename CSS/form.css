@@ -1,6 +1,8 @@
 /*form*/
 .form-group{
     display: flex;
+    flex-direction: column;
+    width: 10%;
 }
 .form-group input, .form-group select, .form-group textarea{
     width: 100%;

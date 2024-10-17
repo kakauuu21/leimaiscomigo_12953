@@ -1,12 +1,13 @@
 @import"./form.css";
+
 header {
     background-image: url(../image/background-top.jpg);
     background-size: cover;
     background-position: center;
 }
- 
-.header-main{
-     background-color: var(--shawdow);
+
+.header-main {
+    background-color: var(--shawdow);
 }
 
 .header-content {
@@ -88,17 +89,17 @@ nav li {
     object-fit: cover;
 }
 
-.card-text{
+.card-text {
     padding: 10px
 }
 
-.card-text h2{
+.card-text h2 {
     text-align: center;
     font-family: var(--font-title);
 }
 
 /* .card-content .container */
-.card-content > div{
+.card-content>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -109,22 +110,36 @@ nav li {
 
 /* Contact */
 
-.contact{
+.contact {
     display: flex;
 }
 
 .contact-map,
-.contact-form{
+.contact-form {
     width: 50%;
     padding: 40px;
 }
 
-.contact-map h2{
+.contact-map h2 {
     font-size: 22px;
     padding: 10px 0;
 }
 
-.contact-map p{
+.contact-map p {
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+@media (max-width:760px){
+    .header-content {
+    flex-direction:colun;
+    }
+    .contact-map, .contact-form{ width: 10%;}
+ }
+
+
+@media (max-width:400px){
+    .header-content {
+    flex-direction:colun-reserve;
+    }
 }
