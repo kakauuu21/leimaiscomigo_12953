@@ -1,22 +1,21 @@
-@import"./form.css";
+@import "./form.css";
 
-.form-acess {
-    /*display: flex;
+.form-access {
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;*/
-    height: 100vh;
+    align-items: center;*/
+    height: 100vh; 
 
     position: relative;
     top:0;
-    background-color: dimgrey;
+    background-color: var(--shadow);
 }
 
-.form-acess form {
+.form-access form {
     position: absolute;
-    top: 50%;
+    top:50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 300px;
     border: solid 1px var(--gray);
     padding: 20px;
