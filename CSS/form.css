@@ -1,0 +1,38 @@
+/* Form */
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group input, 
+.form-group select,
+.form-group textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: solid 1px var(--blue);
+    background-color: var(--white);
+    font-family: var(--font-primary);
+}   
+
+.form-group button{
+    padding: 5px 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid 1px var(--blue);
+}
+
+.form-group button:hover{
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.form-group-button{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
